@@ -1,4 +1,4 @@
-name: Release
+name: Build Release
 
 permissions:
   id-token: write
@@ -28,14 +28,14 @@ jobs:
       run: zip -r addons.zip addons
 
     - name: Upload binary to release
-      uses: svenstaro/upload-release-action@v1-release
+      uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: addons.zip
-        asset_name: addons.zip
         tag: ${{ github.ref }}
+        overwrite: true
     
     - name: Generate artifact attestation
       uses: actions/attest-build-provenance@v2
       with:
-        subject-path: 'addons.zip'
+        subject-path: addons.zip
