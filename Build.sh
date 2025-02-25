@@ -29,7 +29,7 @@ go install graphics.gd/cmd/gd@master
 PATH=$PATH:~/go/bin
 
 echo "---STARTING BUILD PROCESS---"
-cp ./graphics/library.gdextension ./addons/time/time.gdextension
+cp ./time.gdextension ./addons/time/time.gdextension
 
 echo "building windows amd64"
 CGO_ENABLED=1 CC=x86_64-w64-mingw32-gcc GOOS=windows GOARCH=amd64 gd build -buildmode=c-shared -buildvcs=false
