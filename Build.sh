@@ -27,7 +27,6 @@ go version
 echo "---INSTALLING gd---"
 go install graphics.gd/cmd/gd@master
 PATH=$PATH:~/go/bin
-gd version
 
 echo "---STARTING BUILD PROCESS---"
 cp ./graphics/library.gdextension ./addons/time/time.gdextension
