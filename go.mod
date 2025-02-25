@@ -9,8 +9,8 @@ require (
 
 require (
 	github.com/tetratelabs/wazero v1.8.2 // indirect
-	golang.org/x/net v0.25.0 // indirect
-	golang.org/x/sys v0.20.0 // indirect
-	golang.org/x/text v0.15.0 // indirect
+	golang.org/x/net v0.34.0 // indirect
+	golang.org/x/sys v0.29.0 // indirect
+	golang.org/x/text v0.21.0 // indirect
 	runtime.link v0.0.0-20250131052539-992a5f0be9db // indirect
 )
