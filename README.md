@@ -1,5 +1,4 @@
 [![Build & Test](https://github.com/ynot01/ntp-godot-go/actions/workflows/go.yml/badge.svg)](https://github.com/ynot01/ntp-godot-go/actions/workflows/go.yml)
-
 [![Release](https://github.com/ynot01/ntp-godot-go/actions/workflows/release.yml/badge.svg)](https://github.com/ynot01/ntp-godot-go/actions/workflows/release.yml)
 
 # NTP in Godot
