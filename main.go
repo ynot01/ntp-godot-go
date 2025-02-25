@@ -12,7 +12,8 @@ import (
 )
 
 type NTP struct {
-	classdb.Extension[NTP, Object.Instance] `gd:"NTP"`
+	classdb.Extension[NTP, Object.Instance] `gd:"NTP"
+		is an Network Time Protocol interface.`
 }
 
 var ntp_servers = [...]string{
