@@ -2,6 +2,14 @@
 
 A small GDExtension (4.3+) for interfacing with NTP servers
 
+## Usage
+
+`NTP.now()` will return the current UTC time in milliseconds as reported by the NTP server
+
+## Download
+
+### [Latest release here](https://github.com/ynot01/ntp-godot-go/releases/latest/download/addons.zip)
+
 ## Building
 
 Run `./Build.ps1` or `./Build.sh`
