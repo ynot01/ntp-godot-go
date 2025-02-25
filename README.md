@@ -13,11 +13,11 @@ A small GDExtension (4.3+) for interfacing with NTP servers
 
 ### [Latest release here](https://github.com/ynot01/ntp-godot-go/releases/latest/download/addons.zip)
 
-| Support | AMD64 | ARM64 |
-| :---:   | :---: | :---: |
-| Windows | ✅   | ✅    |
-| Linux   | ✅   | ✅    |
-| MacOS   | ❌   | ❌    |
+| Support | AMD64 | ARM64 | x86 (32-bit) |
+| :---:   | :---: | :---: | :---:        |
+| Windows | ✅   | ✅    | ❌          |
+| Linux   | ✅   | ✅    | ❌          |
+| MacOS   | ❌   | ❌    | ❌          |
 
 ## Building
 
