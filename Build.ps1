@@ -1,0 +1,1 @@
+wsl -u root ./Build.sh
