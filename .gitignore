@@ -42,3 +42,4 @@ graphics/mono_crash.*.json
 
 # project specific
 addons/
+*.tar.gz
