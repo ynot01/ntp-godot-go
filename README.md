@@ -14,6 +14,12 @@ A small GDExtension (4.3+) for interfacing with NTP servers
 
 ### [Latest release here](https://github.com/ynot01/ntp-godot-go/releases/latest/download/addons.zip)
 
+| Support | AMD64 | ARM64 |
+| :---:   | :---: | :---: |
+| Windows | ✅   | ❌    |
+| Linux   | ✅   | ❌    |
+| MacOS   | ❌   | ❌    |
+
 ## Building
 
 Run `./Build.ps1` or `./Build.sh`
