@@ -15,8 +15,8 @@ A small GDExtension (4.3+) for interfacing with NTP servers
 
 | Support | AMD64 | ARM64 |
 | :---:   | :---: | :---: |
-| Windows | ✅   | ❌    |
-| Linux   | ✅   | ❌    |
+| Windows | ✅   | ✅    |
+| Linux   | ✅   | ✅    |
 | MacOS   | ❌   | ❌    |
 
 ## Building
