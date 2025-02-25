@@ -1,0 +1,41 @@
+name: Release
+
+permissions:
+  id-token: write
+  contents: read
+  attestations: write
+
+on:
+  release:
+    types: [published]
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Run build script
+      run: |
+        chmod +x ./Build.sh
+        ./Build.sh
+
+    - name: Install zip
+      run: sudo apt-get install zip -y
+    
+    - name: Package addons
+      run: zip -r addons.zip addons
+
+    - name: Upload binary to release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: addons.zip
+        asset_name: addons.zip
+        tag: ${{ github.ref }}
+    
+    - name: Generate artifact attestation
+      uses: actions/attest-build-provenance@v2
+      with:
+        subject-path: 'addons.zip'
