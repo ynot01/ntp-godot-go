@@ -29,6 +29,8 @@ Copy the resultant `./addons/` folder to your Godot project
 
 ## Testing
 
+Install [gd](https://github.com/grow-graphics/gd) via `go install graphics.gd/cmd/gd@master`
+
 Run `gd build` then `gd test`
 
 The project in `./graphics/` will be used to test the extension
