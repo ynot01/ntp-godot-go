@@ -5,19 +5,20 @@
 
 A small GDExtension (4.3+) for interfacing with NTP servers
 
-## Usage
+## Installation
 
-`NTP.now()` will return the current UTC time in milliseconds as reported by the NTP server
-
-## Download
-
-### [Latest release here](https://github.com/ynot01/ntp-godot-go/releases/latest/download/addons.zip)
+1. [Download latest release](https://github.com/ynot01/ntp-godot-go/releases/latest/download/addons.zip) 
+2. Extract the addons folder to your Godot project's root folder
 
 | Support | AMD64 | ARM64 | x86 (32-bit) |
 | :---:   | :---: | :---: | :---:        |
 | Windows | ✅   | ✅    | ❌          |
 | Linux   | ✅   | ✅    | ❌          |
 | MacOS   | ❌   | ❌    | ❌          |
+
+## Usage
+
+`NTP.now()` will return the current UTC time in milliseconds as reported by the NTP server
 
 ## Building
 
